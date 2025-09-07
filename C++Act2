@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string firstname, lastname, course, motto;
+    string section, birthday;
+    int year;
+    
+    cout<<"Input Your firstname: ";
+    cin>> firstname;
+    
+    cout<<"Input Your lastname: " ;
+    cin>> lastname;
+    
+    cout<<"Input Your Course: ";
+    cin>> course;
+    
+    cout<<"Input Your Year: ";
+    cin>> year;
+    
+    cout<<"Input Your Section: ";
+    cin>> section;
+    
+    cout<<"Input Your Birthday: ";
+    cin>> birthday;
+    
+    cout<<"Input Your Motto: ";
+    cin>> motto;
+    
+    cout<< " The Result " << endl;
+    
+    cout<< "Hi im " << firstname << " " << lastname << " " << course << ", " << year << " " << section << ". Welcome to Data Structures and Algorithm! " << "My Birthday is on: " << birthday << ". And my motto/motivation in life is: " << motto << endl;
+
+    return 0;
+}
